@@ -1,0 +1,144 @@
+.container{
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  grid-template-rows: repeat(12,1fr);
+  font-size: 18px;
+  color: #2D3748 ;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
+  /*margin-left: 30px;
+  margin-right: 30px;*/
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  grid-column-start: 1;
+  grid-column-end: 13;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  background-color: #63B3ED;
+  color: #FFFFFF;
+}
+
+header img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+header h1{
+  font-size: 36px;
+  font-family:Georgia, 'Times New Roman', Times, serif ;
+  color: #FFFFFF;
+  margin-bottom: 2px;
+}
+
+header p{
+    margin-top: 2px;
+}
+
+main{
+  grid-column-start: 1;
+  grid-column-end: 8;
+  grid-row-start: 4;
+  grid-row-end: 13;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+
+main hr{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+article h2{
+  font-size: 32px;
+  color: #48BB78;
+  margin-bottom: 2px;
+}
+
+article p.DateandName{
+  margin-top: 2px;
+  margin-bottom: 30px;
+  color: #718096;
+}
+
+article.Blog1 img{
+  height: 250px;
+  width: 350px;
+  float: right;
+}
+
+article.Blog2 img{
+  height: 250px;
+  width: 350px;
+  float: left;
+}
+
+
+aside{
+  grid-column-start: 8;
+  grid-column-end: 13;
+  grid-row-start: 4;
+  grid-row-end: 12;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+
+aside li{
+  list-style: none;
+  /*padding-left: 0;
+  margin-left: 0;*/
+}
+
+aside ul{
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+
+aside a{
+  text-decoration: none;
+}
+
+aside h3{
+  color:#48BB78 ;
+  font-family: Georgia,'Times New Roman', Times, serif;
+}
+
+aside a{
+  color: #4299E1;
+}
+
+aside div{
+  padding:1cm;
+}
+
+aside div.About{
+  background-color:#E2E8F0;
+  /*padding:1cm;*/
+}
+
+aside div.About h3{
+  color: #000000;
+}
+
+footer{
+  grid-column-start: 1;
+  grid-column-end: 13;
+  grid-row-start: 13;
+  grid-row-end: 13;
+  background-color: #2C5282;
+  color: #FFFFFF;
+}
+
+footer p{
+  padding-left: 90px;
+}
